@@ -87,8 +87,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    /*rules for the header*/
-   /*rules article class fullscreen*/
+/*rules of the navbar*/
+.nav
+{
+  background-color: black;
+}
+
+.nav .lien, .nav .navsupport .lien, .nav .navsupport .navsupport1 .lien
+{
+  color: white;
+}
+
+.nav .navbouton
+{
+  background-color: white;
+}
+
+.nav .lien:hover, .nav .navsupport .lien:hover, .nav .navsupport .navsupport1 .lien:hover
+{
+  color: #5a2507;
+}
+
+.nav .navbouton:hover
+{
+  background-color: white;
+
+  		opacity: 0.9;
+}
+/*end rules of the navbar*/
+
+
+
+/*rules for the header*/
 
    .fullscreen figure img {
        height: 80vh;
@@ -96,14 +126,30 @@ textarea {
        margin-left: 5%;
    }
 
-
-   /*end rules article class fullscreen*/
-   /*end rules for the header*/
+/*end rules for the header*/
 
 
-.test .frontend img, .test .backend img{
-  height: 100px;
+/*rules div presentation*/
+.moi
+{
   margin-top: 2em;
+}
+
+.moi h3, .moi p
+{
+  margin-left: 5%;
+}
+
+.moi p
+{
+  margin-top: 1em;
+}
+/*end rules div presentation*/
+
+
+/*rules div competence*/
+.competence .frontend img, .competence .backend img{
+  height: 100px;
 }
 
 .frontend, .backend{
@@ -112,11 +158,54 @@ textarea {
   flex-wrap: wrap;
 }
 
+.competence h3
+{
+  margin: 5%;
+}
+
+.trait
+{
+  width: 60%;
+  background-color: #5a2507;
+  border: 1px solid #5a2507;
+  margin-top: 1em;
+  margin-left: 18%;
+}
+/*end rules div competence*/
 
 
+/*rules div projets*/
 .projets .slide1 img, .projets .slide2 img{
   height: 250px;
 }
+/*end rules div projets*/
+
+
+/*rules div contact*/
+.coordonnees
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/*end rules div contact*/
+
+
+/*rules footer*/
+footer
+{
+  background-color: darkgrey;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+footer p
+{
+  color: white;
+  margin-left: 5%;
+}
+/*end rules footer*/
+
 
 
 
