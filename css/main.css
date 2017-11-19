@@ -90,7 +90,7 @@ textarea {
 /*rules common*/
 h3{
   font-family: 'Orbitron', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 /*end rules common*/
@@ -131,8 +131,7 @@ h3{
 
    .fullscreen figure img {
        height: 80vh;
-       width: 90%;
-       margin-left: 5%;
+       width: 100%;
    }
 
 /*end rules for the header*/
@@ -152,13 +151,15 @@ h3{
 .moi p
 {
   margin-top: 1em;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
 }
 /*end rules div presentation*/
 
 
 /*rules div competence*/
 .competence .frontend img, .competence .backend img{
-  height: 100px;
+  height: 70px;
 }
 
 .frontend, .backend{
@@ -185,8 +186,7 @@ h3{
 
 /*rules div projets*/
 .projets .slide1 img, .projets .slide2 img{
-  height: 250px;
-  margin-left: 45%;
+  height: 230px;
 }
 
 h4
@@ -222,6 +222,7 @@ h4
 .coordonnees p, .coordonnees a
 {
   color: #474747;
+  font-size: 12px;
 }
 
 .coordonnees p:hover, .coordonnees a:hover
@@ -244,11 +245,65 @@ footer p
 {
   color: white;
   margin-left: 5%;
+  font-size: 12px;
 }
 /*end rules footer*/
 
 
+@media (min-width:645px) {
 
+  /*rules common*/
+  h3{
+    font-size: 20px;
+  }
+  /*end rules common*/
+
+  /*rules for the header*/
+
+     .fullscreen figure img {
+         width: 90%;
+         margin-left: 5%;
+     }
+
+  /*end rules for the header*/
+
+  /*rules div presentation*/
+
+  .moi p
+  {
+    font-size: 17px;
+  }
+  /*end rules div presentation*/
+
+  /*rules div competence*/
+  .competence .frontend img, .competence .backend img{
+    height: 90px;
+  }
+  /*end rules div competence*/
+
+  /*rules div projets*/
+  .projets .slide1 img, .projets .slide2 img{
+    height: 250px;
+    /*margin-left: 45%;*/
+  }
+  /*end rules div projets*/
+
+  /*rules div contact*/
+
+  .coordonnees p, .coordonnees a
+  {
+    font-size: 15px;
+  }
+
+  /*end rules div contact*/
+
+  /*rules footer*/
+  footer p
+  {
+    font-size: 15px;
+  }
+  /*end rules footer*/
+}
 
 
 
