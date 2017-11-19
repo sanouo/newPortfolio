@@ -208,6 +208,16 @@ h4
 {
   background-color: grey;
 }
+
+.projets .slide1{
+  display: flex;
+  justify-content: center;
+}
+
+.projets .slide2{
+  display: flex;
+  justify-content: center;
+}
 /*end rules div projets*/
 
 
@@ -284,8 +294,8 @@ footer p
   /*rules div projets*/
   .projets .slide1 img, .projets .slide2 img{
     height: 250px;
-    /*margin-left: 45%;*/
   }
+
   /*end rules div projets*/
 
   /*rules div contact*/
