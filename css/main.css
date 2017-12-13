@@ -173,14 +173,6 @@ h3{
   margin: 5%;
 }
 
-.trait
-{
-  width: 60%;
-  background-color: #5a2507;
-  border: 1px solid #5a2507;
-  margin-top: 1em;
-  margin-left: 18%;
-}
 /*end rules div competence*/
 
 
@@ -222,6 +214,12 @@ h4
 
 
 /*rules div contact*/
+iframe
+{
+  width: 100%;
+  height: 25vh;
+}
+
 .coordonnees
 {
   display: flex;
@@ -239,6 +237,35 @@ h4
 {
   color: grey;
   text-decoration: none;
+}
+
+.dispo
+{
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dispo p, .dispo i
+{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.dispo i
+{
+  font-size:70px;
+  color:#474747;
+}
+
+.dispo p
+{
+  margin-top: 9px;
+  color: #474747;
+  font-size: 13px;
+  font-family: 'Orbitron', sans-serif;
 }
 /*end rules div contact*/
 
@@ -268,14 +295,6 @@ footer p
   }
   /*end rules common*/
 
-  /*rules for the header*/
-
-     .fullscreen figure img {
-         width: 90%;
-         margin-left: 5%;
-     }
-
-  /*end rules for the header*/
 
   /*rules div presentation*/
 
@@ -305,6 +324,15 @@ footer p
     font-size: 15px;
   }
 
+  .dispo p
+  {
+    font-size: 13px;
+  }
+
+  .dispo i
+  {
+    font-size: 110px;
+  }
   /*end rules div contact*/
 
   /*rules footer*/
