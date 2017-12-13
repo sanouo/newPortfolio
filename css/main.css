@@ -87,6 +87,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.up
+{
+  position: absolute;
+  position: fixed;
+  margin-left: 95%;
+}
+
 /*rules common*/
 h3{
   font-family: 'Orbitron', sans-serif;
