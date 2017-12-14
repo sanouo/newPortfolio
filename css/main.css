@@ -91,7 +91,7 @@ textarea {
 {
   position: absolute;
   position: fixed;
-  margin-left: 95%;
+  margin-left: 87%;
 }
 
 /*rules common*/
@@ -161,6 +161,61 @@ h3{
   font-family: 'Orbitron', sans-serif;
   font-size: 15px;
 }
+
+h5
+{
+  margin-top: 25px;
+  margin-left: 5%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 17px;
+}
+
+.loisirs
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.class_test
+{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+    .class_test:hover p.text
+    {
+        opacity: 1;
+    }
+
+.class_test p.text
+{
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    top: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    margin-left: 15%;
+}
+
+.class_test img
+{
+  width: 200px;
+  height: 200px;
+  margin-left: 15%;
+}
+
 /*end rules div presentation*/
 
 
