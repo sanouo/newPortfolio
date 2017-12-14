@@ -216,6 +216,29 @@ h5
   margin-left: 15%;
 }
 
+.tof
+{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+}
+
+.tof1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.infoId, .dev
+{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.dev
+{
+  text-align: center;
+  color: red;
+}
 /*end rules div presentation*/
 
 
@@ -238,7 +261,7 @@ h5
 .bouton
 {
   margin-left: 5%;
-  margin-top: 26px;
+  margin-top: 35px;
   margin-bottom: 17px;
   background-color: #474747;
   border: solid 1px #474747;
@@ -247,7 +270,7 @@ h5
 .bouton:hover
 {
   background-color: grey;
-  border: solid 1px grey;  
+  border: solid 1px grey;
 }
 /*end rules div competence*/
 
