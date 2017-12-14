@@ -235,6 +235,20 @@ h5
   margin: 5%;
 }
 
+.bouton
+{
+  margin-left: 5%;
+  margin-top: 26px;
+  margin-bottom: 17px;
+  background-color: #474747;
+  border: solid 1px #474747;
+}
+
+.bouton:hover
+{
+  background-color: grey;
+  border: solid 1px grey;  
+}
 /*end rules div competence*/
 
 
